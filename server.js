@@ -92,5 +92,5 @@ app.patch("/api/admin/orders/:id",admin,(req,res)=>{
   o.status=req.body.status; o.updatedAt=new Date().toISOString(); writeDB(db);res.json(o);
 });
 
-app.get("*",(req,res)=>res.sendFile(path.join(__dirname,"public","index.html")));
+app.get("/{*splat}",(req,res)=>res.sendFile(path.join(__dirname,"public","index.html")));
 app.listen(PORT,()=>console.log(`BloxShop V2 running on http://localhost:${PORT}`));
