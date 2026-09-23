@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "type": "account",
+      "name": "Acc Lv.2450 • Dough",
+      "level": 2450,
+      "fruit": "Dough",
+      "price": 299000,
+      "emoji": "🍩",
+      "tag": "HOT",
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "type": "account",
+      "name": "Acc Lv.1800 • Leopard",
+      "level": 1800,
+      "fruit": "Leopard",
+      "price": 199000,
+      "emoji": "🐆",
+      "tag": "FRUIT",
+      "status": "available"
+    },
+    {
+      "id": 3,
+      "type": "account",
+      "name": "Acc Lv.2550 • Kitsune",
+      "level": 2550,
+      "fruit": "Kitsune",
+      "price": 449000,
+      "emoji": "🦊",
+      "tag": "VIP",
+      "status": "available"
+    },
+    {
+      "id": 101,
+      "type": "service",
+      "name": "Cày Level",
+      "description": "Cày level theo mốc bạn chọn.",
+      "price": 30000,
+      "emoji": "⚡",
+      "tag": "SERVICE",
+      "status": "available"
+    },
+    {
+      "id": 102,
+      "type": "service",
+      "name": "Cày Mastery",
+      "description": "Cày mastery cho Sword, Fighting Style hoặc Fruit.",
+      "price": 50000,
+      "emoji": "⚔️",
+      "tag": "SERVICE",
+      "status": "available"
+    }
+  ],
+  "orders": []
+}
